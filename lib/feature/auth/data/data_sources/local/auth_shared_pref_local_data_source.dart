@@ -1,5 +1,4 @@
-import 'package:ecommerce/core/constants.dart';
-import 'package:ecommerce/core/error/exceptions.dart';
+
 import 'package:injectable/injectable.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
