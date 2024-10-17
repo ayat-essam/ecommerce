@@ -3,10 +3,11 @@ import 'package:ecommerce/core/resources/color_manager.dart';
 import 'package:ecommerce/core/resources/values_manager.dart';
 import 'package:ecommerce/core/routes/routes.dart';
 import 'package:ecommerce/core/widgets/heart_button.dart';
-import 'package:ecommerce/features/wishlist/presentation/widgets/add_to_cart_button.dart';
-import 'package:ecommerce/features/wishlist/presentation/widgets/wishlist_item_details.dart';
+import 'package:ecommerce/feature/wishlist/presentation/widgets/wishlist_item_details.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'add_to_cart_button.dart';
 
 class WishlistItem extends StatelessWidget {
   const WishlistItem({required this.product});

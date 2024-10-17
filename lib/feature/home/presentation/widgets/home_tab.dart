@@ -1,11 +1,12 @@
 import 'dart:async';
-
 import 'package:ecommerce/core/resources/assets_manager.dart';
-import 'package:ecommerce/features/home/presentation/widgets/announcements_section.dart';
-import 'package:ecommerce/features/home/presentation/widgets/category_item.dart';
-import 'package:ecommerce/features/home/presentation/widgets/custom_section_bar.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'announcements_section.dart';
+import 'category_item.dart';
+import 'custom_section_bar.dart';
 
 class HomeTab extends StatefulWidget {
   const HomeTab();

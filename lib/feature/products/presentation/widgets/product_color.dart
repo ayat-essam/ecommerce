@@ -1,6 +1,7 @@
-import 'package:ecommerce/features/products/presentation/widgets/color_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'color_item.dart';
 
 class ProductColor extends StatefulWidget {
   final List<Color> color;

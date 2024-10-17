@@ -1,8 +1,8 @@
 import 'package:ecommerce/core/resources/values_manager.dart';
-import 'package:ecommerce/features/home/presentation/widgets/categories_list.dart';
-import 'package:ecommerce/features/home/presentation/widgets/sub_categories_list.dart';
+import 'package:ecommerce/feature/home/presentation/widgets/sub_categories_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'categories_list.dart';
 
 class CategoriesTab extends StatelessWidget {
   const CategoriesTab();

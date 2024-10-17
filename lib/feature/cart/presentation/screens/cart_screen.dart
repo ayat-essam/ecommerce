@@ -2,10 +2,11 @@ import 'package:ecommerce/core/resources/assets_manager.dart';
 import 'package:ecommerce/core/resources/color_manager.dart';
 import 'package:ecommerce/core/resources/styles_manager.dart';
 import 'package:ecommerce/core/resources/values_manager.dart';
-import 'package:ecommerce/features/cart/presentation/widgets/cart_item.dart';
-import 'package:ecommerce/features/cart/presentation/widgets/total_price_and_checkout_botton.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../widgets/cart_item.dart';
+import '../widgets/total_price_and_checkout_botton.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen();

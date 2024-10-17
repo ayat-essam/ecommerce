@@ -1,7 +1,8 @@
-import 'package:ecommerce/features/auth/data/models/login_request.dart';
-import 'package:ecommerce/features/auth/data/models/login_response.dart';
-import 'package:ecommerce/features/auth/data/models/register_request.dart';
-import 'package:ecommerce/features/auth/data/models/register_response.dart';
+
+import '../../models/login_request.dart';
+import '../../models/login_response.dart';
+import '../../models/register_request.dart';
+import '../../models/register_response.dart';
 
 abstract class AuthRemoteDataSource {
   Future<RegisterResponse> register(RegisterRequest request);

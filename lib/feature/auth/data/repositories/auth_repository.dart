@@ -1,12 +1,14 @@
 import 'package:dartz/dartz.dart';
 import 'package:ecommerce/core/error/exceptions.dart';
 import 'package:ecommerce/core/error/failure.dart';
-import 'package:ecommerce/features/auth/data/data_sources/local/auth_local_data_source.dart';
-import 'package:ecommerce/features/auth/data/data_sources/remote/auth_remote_data_source.dart';
-import 'package:ecommerce/features/auth/data/models/login_request.dart';
-import 'package:ecommerce/features/auth/data/models/register_request.dart';
-import 'package:ecommerce/features/auth/data/models/user_model.dart';
+
 import 'package:injectable/injectable.dart';
+
+import '../data_sources/local/auth_local_data_source.dart';
+import '../data_sources/remote/auth_remote_data_source.dart';
+import '../models/login_request.dart';
+import '../models/register_request.dart';
+import '../models/user_model.dart';
 
 @singleton
 class AuthRepository {

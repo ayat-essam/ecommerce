@@ -1,11 +1,14 @@
 import 'package:ecommerce/core/resources/assets_manager.dart';
 import 'package:ecommerce/core/resources/color_manager.dart';
 import 'package:ecommerce/core/widgets/home_screen_app_bar.dart';
-import 'package:ecommerce/features/home/presentation/widgets/categories_tab.dart';
-import 'package:ecommerce/features/home/presentation/widgets/home_tab.dart';
-import 'package:ecommerce/features/profile/presentation/widgets/profile_tab.dart';
-import 'package:ecommerce/features/wishlist/presentation/widgets/wishlist_tab.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+
+import '../../../profile/presentation/widgets/profile_tab.dart';
+import '../../../wishlist/presentation/widgets/wishlist_tab.dart';
+import '../widgets/categories_tab.dart';
+import '../widgets/home_tab.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen();

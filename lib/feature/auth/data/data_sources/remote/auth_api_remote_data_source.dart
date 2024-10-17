@@ -1,12 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:ecommerce/core/constants.dart';
 import 'package:ecommerce/core/error/exceptions.dart';
-import 'package:ecommerce/features/auth/data/data_sources/remote/auth_remote_data_source.dart';
-import 'package:ecommerce/features/auth/data/models/login_request.dart';
-import 'package:ecommerce/features/auth/data/models/login_response.dart';
-import 'package:ecommerce/features/auth/data/models/register_request.dart';
-import 'package:ecommerce/features/auth/data/models/register_response.dart';
 import 'package:injectable/injectable.dart';
+
 
 import '../../models/login_request.dart';
 import '../../models/login_response.dart';

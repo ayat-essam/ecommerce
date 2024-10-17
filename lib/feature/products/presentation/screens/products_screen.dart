@@ -1,9 +1,10 @@
 import 'package:ecommerce/core/resources/assets_manager.dart';
 import 'package:ecommerce/core/resources/values_manager.dart';
 import 'package:ecommerce/core/widgets/home_screen_app_bar.dart';
-import 'package:ecommerce/features/products/presentation/widgets/product_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../widgets/product_item.dart';
 
 class ProductsScreen extends StatelessWidget {
   const ProductsScreen();
